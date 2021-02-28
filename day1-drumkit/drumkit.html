@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/icon" sizes="16x16" href="../favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./drumkitstyles.css" />
+    <title>JS30: The Drum Kit</title>
+  </head>
+  <body>
+    <main class="section">
+      <h1 class="title">The Drum Kit</h1>
+      <p class="description">Press the buttons and listen to the drum voices</p>
+      <ul class="key-list">
+        <li class="key-item" data-key="81">Q<span class="voice">clap</span></li>
+        <li class="key-item" data-key="87">
+          W<span class="voice">hihat</span>
+        </li>
+        <li class="key-item" data-key="69">E<span class="voice">kick</span></li>
+        <li class="key-item" data-key="82">R<span class="voice">bass</span></li>
+        <li class="key-item" data-key="84">
+          T<span class="voice">cymbal</span>
+        </li>
+        <li class="key-item" data-key="89">Y<span class="voice">ride</span></li>
+        <li class="key-item" data-key="85">
+          U<span class="voice">snare</span>
+        </li>
+        <li class="key-item" data-key="73">I<span class="voice">tom</span></li>
+        <li class="key-item" data-key="79">
+          O<span class="voice">sticks</span>
+        </li>
+      </ul>
+      <audio src="./sounds/clap.wav" data-key="81"></audio>
+      <audio src="./sounds/hiHat.mp3" data-key="87"></audio>
+      <audio src="./sounds/kick.wav" data-key="69"></audio>
+      <audio src="./sounds/bass.mp3" data-key="82"></audio>
+      <audio src="./sounds/cymbal.mp3" data-key="84"></audio>
+      <audio src="./sounds/ride.wav" data-key="89"></audio>
+      <audio src="./sounds/snare.mp3" data-key="85"></audio>
+      <audio src="./sounds/tom.mp3" data-key="73"></audio>
+      <audio src="./sounds/sticks.mp3" data-key="79"></audio>
+
+      <script src="./drumkit.js"></script>
+    </main>
+  </body>
+</html>
