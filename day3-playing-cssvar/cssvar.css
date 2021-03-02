@@ -1,0 +1,51 @@
+:root {
+  --base: #d309cc;
+  --spacing: 10px;
+  --blur: 0px;
+}
+
+.section {
+  background-image: radial-gradient(var(--base), darkblue);
+}
+
+.comeback {
+  color: var(--base);
+}
+
+.text {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50%;
+  display: inline-block;
+
+  font-size: 50px;
+  font-weight: 700;
+  color: whitesmoke;
+  word-wrap: break-word;
+}
+
+.text-active {
+  color: var(--base);
+}
+
+.input-box {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.input {
+  cursor: pointer;
+}
+
+.img-box {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: var(--spacing);
+  background-color: var(--base);
+  filter: blur(var(--blur));
+  border: 2px solid blue;
+  border-radius: 5px;
+}

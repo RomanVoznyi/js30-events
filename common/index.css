@@ -1,0 +1,9 @@
+.section {
+  background-image: url("./images/rock2.jpg");
+  text-align: center;
+}
+
+.task-lisk {
+  text-align: left;
+  padding: 10px;
+}
