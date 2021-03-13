@@ -1,0 +1,96 @@
+.section {
+  background-color: rgb(233, 233, 2);
+  padding: 10px;
+}
+
+.comeback,
+.logo {
+  position: absolute;
+  left: 10px;
+  z-index: 2;
+}
+
+.comeback {
+  top: 5px;
+}
+
+.logo {
+  top: 40px;
+}
+
+.world-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+.input-box {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+
+.input-box > span {
+  display: block;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  text-align: center;
+  color: darkblue;
+}
+
+.input-search {
+  width: 320px;  
+  padding: 10px;
+  font-size: 18px;
+  border: 4px ridge rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  outline: none;
+}
+
+.country-list {
+  position: relative;
+  z-index: 1;
+}
+
+.country-item {
+  width: 300px;
+  margin: 0 auto;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+
+  font-size: 12px;
+
+  background-color: rgba(245, 245, 245, 0.8);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.country-item:nth-child(odd) {
+  transform: skewX(-5deg);
+}
+
+.country-item:nth-child(even) {
+  transform: skewX(5deg);
+}
+
+.country-name {
+  font-weight: 700;
+}
+
+.country-population {
+  flex-grow: 1;
+  font-weight: 700;
+  text-align: right;
+}
+
+.marker {
+  background-color: yellow;
+}

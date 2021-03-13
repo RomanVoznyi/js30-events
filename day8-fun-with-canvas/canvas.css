@@ -1,0 +1,56 @@
+.section {
+  background-image: url(./tools/picture.jpg);
+  padding: 10px;
+}
+
+.comeback,
+.logo {
+  position: absolute;
+  left: 10px;
+}
+
+.comeback {
+  top: 5px;
+}
+
+.logo {
+  top: 40px;
+}
+
+.slogan {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#canvas {
+  display: block;
+  margin: auto;
+
+  background-image: url(./tools/canvas.jpg);
+  border: 5mm ridge rgba(100, 255, 255, 0.5);
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.clearBtn {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  width: 100px;
+  height: 50px;
+
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+
+  color: black;
+  background-color: linen;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 30%);
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
