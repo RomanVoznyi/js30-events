@@ -18,6 +18,7 @@
 }
 
 .task-item {
+  min-height: 55px;
   margin-bottom: 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 10px;

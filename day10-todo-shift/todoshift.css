@@ -1,0 +1,78 @@
+.section {
+  background-image: linear-gradient(45deg, yellow, orange, aqua);
+
+  padding: 10px;
+}
+
+.comeback,
+.logo {
+  position: absolute;
+  left: 10px;
+}
+
+.comeback {
+  top: 5px;
+}
+
+.logo {
+  top: 40px;
+}
+
+.list-title {
+  margin-bottom: 10px;
+  text-align: center;
+  color: darkblue;
+  font-size: 24px;
+  font-style: italic;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.todo-list {
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.todo-item {
+  display: block;
+  font-weight: 500;
+  background-color: rgba(245, 245, 245, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.todo-item:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+.todo-box {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.todo-checkbox {
+  cursor: pointer;
+}
+
+.todo-checkbox:checked ~ .todo-text {
+  text-decoration: line-through;
+}
+
+.notice {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  color: brown;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}

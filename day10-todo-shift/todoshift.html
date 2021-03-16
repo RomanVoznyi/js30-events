@@ -8,20 +8,24 @@
     <link rel="icon" type="image/icon" sizes="16x16" href="../favicon.ico" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../common/common.css">
-    <link rel="stylesheet" href="./canvas.css" />
-    <title>JS30: Canvas</title>
+    <link rel="stylesheet" href="./todoshift.css" />
+    <title>JS30: ToDo's and Shift</title>
 </head>
 
 <body>
     <main class="section"><a href="../index.html" class="comeback">&#8592 back to the task list</a>
         <div class="logo">
-            <h1 class="title">Fun with<br>Canvas</h1>            
+            <h1 class="title">TODO List<br>and Shift</h1>
         </div>
-        <h2 class="slogan">Draw your masterpiece</h2>
-        <canvas id="canvas" width="700" height="500"></canvas>
-        <button class="clearBtn">Clear</button>
+        <h3 class="list-title">Everyday list</h3>
+        <ul class="todo-list">
+        </ul>
+        <p class="notice">The note: <br>
+            Check one, press "Shift", select the last item in the executed group. <br>
+            Everything in between should become checked.
+        </p>
     </main>
-    <script src="./canvas.js"></script>
+    <script src="./todoshift.js"></script>
 </body>
 
 </html>
